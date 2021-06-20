@@ -1,0 +1,297 @@
+li#AMETHYST{
+	background: #9b59b6;
+}
+li#POMEGRANATE{
+	background: #c0392b;
+}
+li#SUNFLOWER{
+	background: #f1c40f;
+}
+li#LIGHTGREENISHBLUE{
+	background: #55efc4;
+}
+li#PRUNUSAVIUM{
+	background: #e84393;	
+}
+li#FADEDPOSTER{
+	background: #31ffff;
+	color: #000;
+}
+li#DOUBLEDRAGONSKIN{
+	background: #ff9f43;
+}
+li#MINTGREEN{
+	background: #0be881;
+}
+/*======================================
+				AMETHYST
+========================================*/
+a.AMETHYST {
+    color: #9b59b6;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+a.AMETHYST:hover{
+	background: #9b59b6;
+	color: #443bab;
+	box-shadow: 0 0 5px #9b59b6,
+				0 0 25px #9b59b6,
+				0 0 50px #9b59b6,
+				0 0 200px #9b59b6;
+}
+
+/**/
+a.AMETHYST span:nth-child(1){
+	background: linear-gradient(90deg, transparent,#9b59b6);
+}
+/**/
+a.AMETHYST span:nth-child(2){
+	background: linear-gradient(180deg, transparent,#9b59b6);
+}
+
+/**/
+a.AMETHYST span:nth-child(3){
+	background: linear-gradient(270deg, transparent,#9b59b6);
+}
+
+/**/
+a.AMETHYST span:nth-child(4){
+	background: linear-gradient(360deg, transparent,#9b59b6);
+}
+/*======================================
+				POMEGRANATE
+========================================*/
+a.POMEGRANATE {
+    color: #c0392b;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+a.POMEGRANATE:hover{
+	background: #c0392b;
+	color: #f3a39b;
+	box-shadow: 0 0 5px #c0392b,
+				0 0 25px #c0392b,
+				0 0 50px #c0392b,
+				0 0 200px #c0392b;
+}
+
+/**/
+a.POMEGRANATE span:nth-child(1){
+	background: linear-gradient(90deg, transparent,#c0392b);
+}
+/**/
+a.POMEGRANATE span:nth-child(2){
+	background: linear-gradient(180deg, transparent,#c0392b);
+}
+
+/**/
+a.POMEGRANATE span:nth-child(3){
+	background: linear-gradient(270deg, transparent,#c0392b);
+}
+
+/**/
+a.POMEGRANATE span:nth-child(4){
+	background: linear-gradient(360deg, transparent,#c0392b);
+}
+/*======================================
+				SUNFLOWER
+========================================*/
+a.SUNFLOWER {
+    color: #f1c40f;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+a.SUNFLOWER:hover{
+	background: #f1c40f;
+	color: #443bab;
+	box-shadow: 0 0 5px #f1c40f,
+				0 0 25px #f1c40f,
+				0 0 50px #f1c40f,
+				0 0 200px #f1c40f;
+}
+
+/**/
+a.SUNFLOWER span:nth-child(1){
+	background: linear-gradient(90deg, transparent,#f1c40f);
+}
+/**/
+a.SUNFLOWER span:nth-child(2){
+	background: linear-gradient(180deg, transparent,#f1c40f);
+}
+
+/**/
+a.SUNFLOWER span:nth-child(3){
+	background: linear-gradient(270deg, transparent,#f1c40f);
+}
+
+/**/
+a.SUNFLOWER span:nth-child(4){
+	background: linear-gradient(360deg, transparent,#f1c40f);
+}
+/*======================================
+				LIGHT GREENISH BLUE
+========================================*/
+a.LIGHTGREENISHBLUE {
+    color: #55efc4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+a.LIGHTGREENISHBLUE:hover{
+	background: #55efc4;
+	color: #443bab;
+	box-shadow: 0 0 5px #55efc4,
+				0 0 25px #55efc4,
+				0 0 50px #55efc4,
+				0 0 200px #55efc4;
+}
+
+/**/
+a.LIGHTGREENISHBLUE span:nth-child(1){
+	background: linear-gradient(90deg, transparent,#55efc4);
+}
+/**/
+a.LIGHTGREENISHBLUE span:nth-child(2){
+	background: linear-gradient(180deg, transparent,#55efc4);
+}
+
+/**/
+a.LIGHTGREENISHBLUE span:nth-child(3){
+	background: linear-gradient(270deg, transparent,#55efc4);
+}
+
+/**/
+a.LIGHTGREENISHBLUE span:nth-child(4){
+	background: linear-gradient(360deg, transparent,#55efc4);
+}
+/*======================================
+				PRUNUS AVIUM
+========================================*/
+a.PRUNUSAVIUM {
+    color: #e84393;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+a.PRUNUSAVIUM:hover{
+	background: #e84393;
+	color: #a01e5d;
+	box-shadow: 0 0 5px #e84393,
+				0 0 25px #e84393,
+				0 0 50px #e84393,
+				0 0 200px #e84393;
+}
+
+/**/
+a.PRUNUSAVIUM span:nth-child(1){
+	background: linear-gradient(90deg, transparent,#e84393);
+}
+/**/
+a.PRUNUSAVIUM span:nth-child(2){
+	background: linear-gradient(180deg, transparent,#e84393);
+}
+
+/**/
+a.PRUNUSAVIUM span:nth-child(3){
+	background: linear-gradient(270deg, transparent,#e84393);
+}
+
+/**/
+a.PRUNUSAVIUM span:nth-child(4){
+	background: linear-gradient(360deg, transparent,#e84393);
+}
+/*======================================
+				FADDED POSTER
+========================================*/
+a.FADEDPOSTER {
+    color: #31ffff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+a.FADEDPOSTER:hover{
+	background: #31ffff;
+	color: #443bab;
+	box-shadow: 0 0 5px #31ffff,
+				0 0 25px #31ffff,
+				0 0 50px #31ffff,
+				0 0 200px #31ffff;
+}
+
+/**/
+a.FADEDPOSTER span:nth-child(1){
+	background: linear-gradient(90deg, transparent,#31ffff);
+}
+/**/
+a.FADEDPOSTER span:nth-child(2){
+	background: linear-gradient(180deg, transparent,#31ffff);
+}
+
+/**/
+a.FADEDPOSTER span:nth-child(3){
+	background: linear-gradient(270deg, transparent,#31ffff);
+}
+
+/**/
+a.FADEDPOSTER span:nth-child(4){
+	background: linear-gradient(360deg, transparent,#31ffff);
+}
+/*======================================
+				DOUBLE DRAGON SKIN
+========================================*/
+a.DOUBLEDRAGONSKIN {
+    color: #ff9f43;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+a.DOUBLEDRAGONSKIN:hover{
+	background: #ff9f43;
+	color: #443bab;
+	box-shadow: 0 0 5px #ff9f43,
+				0 0 25px #ff9f43,
+				0 0 50px #ff9f43,
+				0 0 200px #ff9f43;
+}
+
+/**/
+a.DOUBLEDRAGONSKIN span:nth-child(1){
+	background: linear-gradient(90deg, transparent,#ff9f43);
+}
+/**/
+a.DOUBLEDRAGONSKIN span:nth-child(2){
+	background: linear-gradient(180deg, transparent,#ff9f43);
+}
+
+/**/
+a.DOUBLEDRAGONSKIN span:nth-child(3){
+	background: linear-gradient(270deg, transparent,#ff9f43);
+}
+
+/**/
+a.DOUBLEDRAGONSKIN span:nth-child(4){
+	background: linear-gradient(360deg, transparent,#ff9f43);
+}
+/*======================================
+				MINT GREEN
+========================================*/
+a.MINTGREEN {
+    color: #0be881;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+a.MINTGREEN:hover{
+	background: #0be881;
+	color: #088a4d;
+	box-shadow: 0 0 5px #0be881,
+				0 0 25px #0be881,
+				0 0 50px #0be881,
+				0 0 200px #0be881;
+}
+
+/**/
+a.MINTGREEN span:nth-child(1){
+	background: linear-gradient(90deg, transparent,#0be881);
+}
+/**/
+a.MINTGREEN span:nth-child(2){
+	background: linear-gradient(180deg, transparent,#0be881);
+}
+
+/**/
+a.MINTGREEN span:nth-child(3){
+	background: linear-gradient(270deg, transparent,#0be881);
+}
+
+/**/
+a.MINTGREEN span:nth-child(4){
+	background: linear-gradient(360deg, transparent,#0be881);
+}

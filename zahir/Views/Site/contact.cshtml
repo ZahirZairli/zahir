@@ -1,0 +1,100 @@
+﻿
+@{
+    ViewBag.Title = "contact";
+    Layout = "~/Views/Shared/Site.cshtml";
+}
+
+<section class="message">
+    <div data-aos="fade-down" class="mail"><i id="envelope" class="fas fa-envelope"></i><h6 style="color: white;margin-top:5px;">click</h6></div>
+    <div class="container for">
+        <form action="~/Site/contact" method="post">
+            <div class="row coni">
+                <div class="col-md-6 form-group">
+                    <div class="input-group inp">
+                        <div class="input-group-prepend text-center gru">
+                            <div><i id="envelope" class="fas fa-envelope"></i></div>
+                        </div>
+                        <input id="name" name="UserName" aria-describedby="basic-addon1" class="input form-control" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <div class="input-group inp">
+                        <div class="input-group-prepend text-center gru">
+                            <div><i id="envelope" class="fas fa-envelope"></i></div>
+                        </div>
+                        <input id="surname" name="UserSurname" aria-describedby="basic-addon1" class="input form-control" placeholder="SurName">
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <div class="input-group inp">
+                        <div class="input-group-prepend text-center gru">
+                            <div><i id="envelope" class="fas fa-envelope"></i></div>
+                        </div>
+                        <input id="phone" name="UserPhone" required type="text" aria-describedby="basic-addon1" class="input form-control" placeholder="Phone">
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <div class="input-group inp">
+                        <div class="input-group-prepend text-center gru">
+                            <div><i id="envelope" class="fas fa-envelope"></i></div>
+                        </div>
+                        <input id="email" name="UserEmail" aria-describedby="basic-addon1" type="email" class="input form-control" placeholder="Email">
+                    </div>
+                </div>
+                <div class="col-md-12 form-group your">
+                    <div class="input-group input2">
+                        <div class="input-group-prepend text-center gru">
+                            <div><i id="envelope" class="fas fa-envelope"></i></div>
+                        </div>
+                        <textarea name="UserMessage" value="Your message*" id="w3review" class="input3" rows="3" cols="50">
+                </textarea>
+                    </div>
+                </div>
+                <div class="zaneo">
+                    <a href="#" class="neo" id="Neon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <input class="btd" type="submit" value="Send" />
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="contactinfo">
+        <ul class="contactview">
+            <li>
+                <i class="fa fa-phone"></i><br>
+                <h6 class="h6">+994513551006</h6>
+            </li>
+            <li><i class="fa fa-envelope-o" style="width: 55px;"></i><H6 class="h6">zairlizahir@gmail.com</H6></li>
+        </ul>
+    </div>
+    <div data-aos="fade-up"
+         data-aos-duration="3000" style="width: 70%;margin: auto;margin-top: 40px;" class="text text-center">
+        <h1 class="name">
+            Hi,
+            <span class="txt-type" data-wait="3000" data-words='["Send","us","a message"]'></span>
+        </h1>
+        <h2 class="site">Welcome to our web site!</h2>
+        <div class="card1">
+            <ul class="sci">
+                <li style="--i:1">
+                    <a href="https://www.facebook.com/profile.php?id=100006595188135"><i class="za fa fa-facebook-official" aria-hidden="true"></i></a>
+                </li>
+                <li style="--i:2">
+                    <a href="https://www.instagram.com/zairlizahir/?igshid=iru4c41y96o"><i class="za fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li style="--i:3">
+                    <a href="https://twitter.com/ZairliZahir"><i class="za fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+@section Script
+{
+    <script src="~/Content/js/jqu.js"></script>
+}
+

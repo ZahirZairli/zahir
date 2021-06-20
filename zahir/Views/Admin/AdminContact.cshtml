@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "AdminContact";
+    Layout = "~/Views/Shared/Admin.cshtml";
+}
+@using zahir.Models
+@model List<ContactList>
+<section class="admincnt">
+    <div style="height: 600px;" class="table container table-wrapper-scroll-y my-custom-scrollbar">
+        <div class="acl p-3"><h4>Contact List</h4></div>
+        <table class="table table-bordered table-hover table-striped text-center mb-0 mt-5">
+            <thead style="color: white;">
+                <tr>
+                    <th>Index</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Message</th>
+                    <th>Date</th>
+                    <th colspan="2">Edit</th>
+                </tr>
+            </thead>
+            <tbody style="color: darkorange;">
+                @foreach (var item in Model)
+                {
+                <tr class="ctbk">
+                    <td>@(Model.IndexOf(item)+1)</td>
+                    <td>@item.UserName</td>
+                    <td>@item.UserSurname</td>
+                    <td>@item.UserEmail</td>
+                    <td>@item.UserPhone</td>
+                    <td>@item.UserMessage</td>
+                    <td>@item.UserDate</td>
+                    <td><a href="~/Admin/DeleteContact/@item.UserId">Delete</a></td>
+                    <td><a href="~/Admin/EditContact/@item.UserId">Edit</a></td>
+                </tr>
+                }
+                </tbody>
+            </table>
+    </div>
+</section>
+
